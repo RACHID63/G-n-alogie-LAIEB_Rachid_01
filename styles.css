@@ -38,7 +38,6 @@ body {
 }
 
 .containerpersonne1 {
-
   margin-right: 20px;
   display: flex;
   flex-direction: column;
@@ -48,7 +47,6 @@ body {
 }
 
 .containerpersonne2 {
-
   margin-left: 20px;
   display: flex;
   flex-direction: column;
@@ -89,29 +87,29 @@ body {
 .sitegénéalogie {
   font-size: 35px;
   padding-bottom: 26px;
-  color: #ffff
+  color: #ffff;
 }
 
-.btn-group-lg>.btn,
+.btn-group-lg > .btn,
 .btn-lg {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 2rem;
   border-radius: 8rem;
 }
 
 button {
-  color: #51FFFB;
+  margin-left: 10px;
+  color: #51fffb;
   margin-bottom: 119px;
-  width: 250px;
+  width: 90%;
   height: 100px;
 }
 
 .slidbar {
   background-color: #323233;
-  ;
   grid-area: slidbar;
   border: solid 2px brown;
   display: flex;
@@ -138,12 +136,13 @@ button {
   border: solid rebeccapurple;
   border-radius: 5 px;
   background: rgb(174, 221, 238);
-  background: radial-gradient(circle,
-      rgba(174, 221, 238, 1) 0%,
-      rgba(148, 187, 233, 1) 100%);
-  -webkit-box-shadow: 0px 4px 38px 3px #51FFFB;
+  background: radial-gradient(
+    circle,
+    rgba(174, 221, 238, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  -webkit-box-shadow: 0px 4px 38px 3px #51fffb;
   box-shadow: 0px 1px 38px 14px #f3edf8;
-  ;
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -156,7 +155,6 @@ p.paragraphe {
   font-weight: 500;
   width: 60vw;
   height: 60vh;
-
 }
 
 .footer {
@@ -165,17 +163,17 @@ p.paragraphe {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #a33265;
+  background: #504702c8;
   grid-area: 3 / 1 / 4 / 3;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper .button {
@@ -208,15 +206,15 @@ p.paragraphe {
 }
 
 .wrapper .button:nth-child(1):hover .icon {
-  background: #4267B2;
+  background: #4267b2;
 }
 
 .wrapper .button:nth-child(2):hover .icon {
-  background: #1DA1F2;
+  background: #1da1f2;
 }
 
 .wrapper .button:nth-child(3):hover .icon {
-  background: #E1306C;
+  background: #e1306c;
 }
 
 .wrapper .button:nth-child(4):hover .icon {
@@ -246,15 +244,15 @@ p.paragraphe {
 }
 
 .wrapper .button:nth-child(1) span {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .wrapper .button:nth-child(2) span {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .wrapper .button:nth-child(3) span {
-  color: #E1306C;
+  color: #e1306c;
 }
 
 .wrapper .button:nth-child(4) span {
@@ -265,10 +263,7 @@ p.paragraphe {
   color: #ff0000;
 }
 
-
 @media screen and (max-width: 414px) {
-
-
   .parent {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -282,7 +277,6 @@ p.paragraphe {
 
   .prénom,
   .sitegénéalogie {
-
     font-size: 15px;
     padding-bottom: 2px;
     color: #4e2a50;
@@ -310,13 +304,7 @@ p.paragraphe {
 
   } */
 
-  button {
-    width: 100px;
-
-  }
-
   .slidbar {
-    
     width: 120px;
     background-color: #a33265;
   }
@@ -325,7 +313,6 @@ p.paragraphe {
     display: grid;
     grid-template-columns: 120px 1fr;
     grid-template-rows: 100px 3fr 200px;
-
   }
 
   .header {
@@ -338,7 +325,6 @@ p.paragraphe {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-
   }
 
   .prénom {
@@ -360,7 +346,7 @@ p.paragraphe {
     width: 300px;
   }
 
-  div>.titre.site {
+  div > .titre.site {
     display: none;
   }
 
@@ -383,12 +369,5 @@ p.paragraphe {
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-content: center;
-
   }
-
-  .button {
-    margin-left: 30px;
-    #a33265
-  }
-
 }
