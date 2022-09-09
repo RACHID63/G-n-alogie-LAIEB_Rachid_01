@@ -93,22 +93,51 @@ body {
 .btn-group-lg > .btn,
 .btn-lg {
   display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 0.5rem 1rem;
   font-size: 2rem;
   border-radius: 8rem;
 }
 
 button {
-  margin-left: 10px;
+  margin-left: 15px;
   color: #51fffb;
   margin-bottom: 119px;
-  width: 90%;
+  width: 80%;
   height: 100px;
 }
 
+.btn2,
+btn1 {
+  width: 100%;
+}
+
+.btn-success:hover {
+  color: black;
+  background-color: yellow;
+  border-color: red;
+  -webkit-box-shadow: 0px 1px 28px 15px rgba(243, 235, 235, 0.963);
+  box-shadow: 0px 1px 28px 15px rgba(243, 235, 235, 0.963);
+}
+
+.btn-primary:hover {
+  color: black;
+  background-color: yellow;
+  border-color: red;
+  -webkit-box-shadow: 0px 1px 28px 15px rgba(0, 0, 0, 0.83);
+  box-shadow: 0px 1px 28px 15px rgba(0, 0, 0, 0.83);
+  -webkit-box-shadow: 0px 1px 28px 15px rgba(243, 235, 235, 0.963);
+  box-shadow: 0px 1px 28px 15px rgba(243, 235, 235, 0.963);
+}
+
 .slidbar {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #323233;
   grid-area: slidbar;
   border: solid 2px brown;
@@ -117,8 +146,6 @@ button {
   width: 10vw;
   height: calc(100vh - 360px);
   grid-area: 2 / 1 / 2 / 3;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .introduction {
