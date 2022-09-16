@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="parent">
-      <div class="header">
+  <body >
+    <nav class="container-fluid  parent">
+      <div class=" header">
         <div class="containerpersonne1">
-          <a href="https://www.igenea.com" class="prénom" >Fils Rachid</a>
+          <a href="https://www.igenea.com" class="prénom" target="blanc" >Fils Rachid</a>
           <img
             class="img fils rounded-circle"
             src="./images/profil-Rachid.png"
@@ -37,7 +37,7 @@
         </div>
         <div class="containerpersonne2">
           <div class="containertext">
-          <a href="https://www.igenea.com" class="prénom" >Père Moustafa</a>
+          <a href="https://www.igenea.com" class="prénom" target="blanc" >Père Moustafa</a>
           </div>
           <img
             class="img père rounded-circle"
@@ -47,7 +47,7 @@
         </div>
         <div class="containerpersonne3">
           <div class="containertext">
-          <a href="https://www.igenea.com" class="prénom" >Mère Fatma</a>
+          <a href="https://www.igenea.com" class="prénom" target="blanc" >Mère Fatma</a>
           </div>
           <img
             class="img père rounded-circle"
@@ -55,26 +55,28 @@
             alt="prénom mère"
           />
         </div>
-      </div>
-      <div class="slidbar">
-        <div class="btn2">
-          <button href="#" class="btn btn-primary rounded-rectangle  btn-lg ms-50 ">
+      
+        </div>
+    </nav>
+      <div class="sidebar">
+        <div class="btn1">
+          <button id="btnAcceuil" class="btn btn-light rounded-rectangle  btn-lg ms-50 mb-5 ">
             Acceuil
           </button>
-        </div>
-        <div class="btn1">
-          <button class="btn btn-primary rounded-rectangle  btn-lg ms-50">
+        </div>s
+        <div id="btnMaternel" class="btn1">
+          <button class="btn btn-light rounded-rectangle  btn-lg ms-50 mb-5">
             Lignée maternel
           </button>
         </div>
-        <div>
-          <button class="btn btn-success rounded-rectangle  btn-lg ">Lignée Paternel
+        <div id="btnPaternel" class="btn1">
+          <button class="btn btn-light rounded-rectangle  btn-lg mb-5 ">Lignée Paternel
           </button>
         </div>
       </div> 
-    <div class="introduction" >
+    <div  id="introduction"  class="container-fluid " >
         <div class="intro">
-          <p class="paragraphe">
+          <p class="paragraphe1">
             Bienvenue!
             Bienvenue dans le monde de la généalogie ADN ! Sur cette page vous pouvez voir les résultats de votre test de généalogie ADN et les aides à l'interprétation par iGENEA. N'hésitez pas à nous contacter si vous avez des questions sur vos résultats. Peut-être souhaitez-vous également recevoir quelques conseils ou informations complémentaires sur votre recherche d'origines.
             
@@ -86,7 +88,51 @@
         </div>
       </div>
     </div>
-    <footer>
+    <div  id="lignéematernel" class="container-fluid ">
+      <div class="intro1">
+      <p class="paragraphe2">
+       <div>
+        <h2>Lignée Maternet famille GRID</h2><br>
+        <h3> Haplogroupe	H </h3> 
+       </div>
+Peuple d‘origine	Celtes ou Germains <br>
+Région d‘origine	Europe de l'Ouest <br>
+Valeurs genétiques	valeurs ADNmt<br>
+Certificat	certificat mt<br>
+Aide d'interprétation	Vous avez beaucoup de concordances dans la base de données.<br> Il n'est cependant pas possible de distinguer les concordances signifiants et celles qui n'en ont pas de signifiance.<br> Ce qui rend difficile la détermination de la région d'origine et du peuple de l'antiquité.<br> L'interprétation de votre profil ADN est donc réparti sur plusieurs peuples de l'antiquité possibles et une plus grande région d'origine.<br> Pour permettre la distinction entre les concordances signifiants et le concordances qui n'ont pas de signifiance, nous vous recommandons de faire un upgrade à un test ADNmt FGS. Le résultat montrera un possible sousgroupe de votre haplogroup déterminé.<br> Ainsi, il est possible de pouvoir différencier l'origine.<br>
+Avec la détermination de votre peuple d'origine et de votre région d'origine, nous aimerions vous aider à vous aider à interpréter vos résultats d'ADN.<br> Le peuple d’origine montre votre provenance dans l’antiquité (900 av. J.C. – 900 ap. J.C.).<br> La région d’origine montre dans quelle région de votre profil est typique.<br> Dépendant de votre profil génétique, une catégorisation précise dans un peuple d'origine n'est pas possible.<br> Dans ce cas tout peuple possible sera listé. Cela signifie que vous appartenez à l'un de ces peuples d'origine et que vous êtes originaire d'une région.
+Base de données
+Cliquez sur "Login" pour arriver dans un premier pas sur la base de données de. Une nouvelle fenêtre de FamilyTreeDNA s'ouvrira. Introduisez votre numéro de laboratoire et votre mot de passe pour vous inscrire à votre page personnelle.
+Renseignement sur les correspondances ADNmt
+L’ADN mitochondrial est transmis de la mère à l’enfant. Tous les femmes et hommes de la même lignée maternelle ont le même ADN mitochondrial.
+      </p>
+    </div>
+    <div  id="lignéepaternel" class="container-fluid ">
+      <div class="intro1">
+      <p class="paragraphe2">
+       <div>
+        <h2>Lignée Paternet famille LAIEB</h2><br>
+        <h3> Haplogroupe	H </h3> 
+       </div>
+
+       Haplogroupe	G-M201 <br>
+       Peuple d‘origine	Arabes, Phéniciens <br>
+       Région d‘origine	Proche-Orient <br>
+       Valeurs genétiques	Valeurs de l'ADN-Y <br>
+       Certificat	certificat Y <br>
+       Recommandation	Y-ADN upgrade 37/67 (mise à niveau) <br>
+       Avec la détermination de votre peuple d'origine et de votre région d'origine, nous aimerions vous aider à vous aider à interpréter vos résultats d'ADN. Le peuple d’origine montre votre provenance dans l’antiquité (900 av. J.C. – 900 ap. J.C.). La région d’origine montre dans quelle région de votre profil est <br>
+        Dépendant de votre profil génétique, une catégorisation précise dans un peuple d'origine n'est pas possible.
+         Dans ce cas tout peuple possible sera listé. <br> 
+         Cela signifie que vous appartenez à l'un de ces peuples d'origine et que vous êtes originaire d'une région. <br>
+       Base de données
+       Cliquez sur "Login" pour arriver dans un premier pas sur la base de données de. Une nouvelle fenêtre de FamilyTreeDNA s'ouvrira. <br> Introduisez votre numéro de laboratoire et votre mot de passe pour vous inscrire à votre page personnelle. <br>
+      
+      </p>
+    </div>
+  </div>
+</div>
+    <footer class=" container-fluid   footercontainer" >
       <div class="footer">
         <div class="wrapper">
           <div class="button">
@@ -133,5 +179,7 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="./javscript.js"> 
+    </script>
   </body>
 </html>
